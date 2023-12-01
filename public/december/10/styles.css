@@ -1,0 +1,54 @@
+body{
+    background-image: url(./kalenderdesktop\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+} 
+
+form{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+@media only screen and (max-width: 660px) {
+    body{
+        background-image: url(./kalendertelefonRudi.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    } 
+    
+    form{
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    h1{
+        color: #ffffff;
+    }
+}
+
